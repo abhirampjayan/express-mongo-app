@@ -1,5 +1,8 @@
 const express = require('express');
+const mongoose = require('mongoose');
 
+
+main().catch(err => console.log(err));
 
 const app = express();
 
